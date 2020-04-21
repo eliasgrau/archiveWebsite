@@ -1,0 +1,43 @@
+/*this is your css file*/
+
+body {
+	cursor: cell;
+	margin: 0;
+}
+
+
+header{
+	text-align: center;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 5rem;
+	color: pink ;
+	margin-top: 0;
+
+}
+
+.images {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+
+#my-square {
+	width: 6rem;
+	height: 6rem;
+	background-color: gray;
+	margin:3rem;
+	border-radius: 50%;
+	transition:1s;
+}
+
+#my-square:hover {
+	width: 12rem;
+	height: 12rem;
+	background-color: pink;
+	margin: 0rem;
+}
