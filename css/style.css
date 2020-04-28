@@ -9,8 +9,8 @@ body {
 header{
 	text-align: center;
 	font-family: 'IBM Plex Sans', sans-serif;
-	font-size: 5rem;
-	color: pink ;
+	font-size: 4rem;
+	color:  #eff5f5 ;
 	margin-top: 0;
 
 }
@@ -29,15 +29,30 @@ header{
 #my-square {
 	width: 6rem;
 	height: 6rem;
-	background-color: gray;
-	margin:3rem;
+	margin:15rem;
 	border-radius: 50%;
 	transition:1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #my-square:hover {
-	width: 12rem;
-	height: 12rem;
-	background-color: pink;
-	margin: 0rem;
+	width: 18rem;
+	height: 18rem;
+	background-color: #eff5f5;
+	margin: 11rem;
 }
+
+
+
+#my-square img {
+	width: 200pt;
+	transition:1s;
+}
+
+#my-square img:hover {
+	width: 400pt;
+}
+
+
