@@ -146,17 +146,6 @@ var leaves = [
 
 ]
 
-// for(var i=0; i<leaves.length; i++){
-// 	$('.content').append("<div class='items' style='border-color: #efeef4; color: #efeef4'>"+ 
-// 		[i+1]+ "<br>"+
-// 		leaves[i].pic + "<br>"+
-// 		leaves[i].name + "<br>"+
-// 		leaves[i].color + "<br>"+
-
-// 		"</div>")
-// }
-
-
 
 for(var i=0; i<leaves.length; i++){
 	var leaveDiv = $('<div/>', {
@@ -170,6 +159,7 @@ for(var i=0; i<leaves.length; i++){
 				if ($(this).data ('clicked') === false){
 					$(this).append('<span>' + $(this).data("leave").pic + '<strong>' + $(this).data("leave").quote + '</strong>' +'</span>')
 					$(this).data('clicked', true)
+					$(this).css({'border-color': $(this).data("leave").color, 'color': $(this).data("leave").color})
 				}
 				else {
 					$(this).find('span').remove()
