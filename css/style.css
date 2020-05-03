@@ -63,3 +63,24 @@ header{
 }
 
 
+.footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10rem;
+	margin-top: 5rem;
+}
+
+.footer a {
+	font-family: 'IBM Plex Sans', sans-serif; 
+	color: white;
+	background-color: #3c3b50;	
+	font-size: 1.5rem;
+	text-decoration: none;
+	padding: 3pt;
+	width: 10%;
+	text-align: center;
+}
+
+.footer a:hover {
+	background-color: #d2232a;

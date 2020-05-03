@@ -1,5 +1,9 @@
 
 
+body {
+	cursor: cell;
+	margin: 0;
+}
 
 .content {
 	display: flex;
