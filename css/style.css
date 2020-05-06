@@ -1,86 +1,32 @@
-/*this is your css file*/
-
-body {
-	cursor: cell;
+body{
 	margin: 0;
-}
-
-
-header{
-	text-align: center;
-	font-family: 'IBM Plex Sans', sans-serif;
-	font-size: 4rem;
-	color:  #eff5f5 ;
-	margin-top: 0;
-
-}
-
-.images {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-
-}
-
-
-
-
-#my-square {
-	width: 6rem;
-	height: 6rem;
-	margin:15rem;
-	border-radius: 50%;
-	transition:1s;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	font-family: 'IBM Plex Sans', sans-serif; 
-	text-align: center;
-
-}
-
-#my-square:hover {
-	width: 18rem;
-	height: 18rem;
-	background-color: #eff5f5;
-	margin: 11rem;
-	color:#c2d6d6;
-
-}
-
-
-
-#my-square img {
-	width: 200pt;
-	transition:1s;
-}
-
-#my-square img:hover {
-	width: 400pt;
-}
-
-
-.footer {
 	width: 100%;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 10rem;
-	margin-top: 5rem;
+	align-items: center;
 }
 
-.footer a {
-	font-family: 'IBM Plex Sans', sans-serif; 
-	color: white;
-	background-color: #3c3b50;	
-	font-size: 1.5rem;
+.menu {
+	position: fixed;
+	width: 50%;
+	height: 40vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu a {
 	text-decoration: none;
-	padding: 3pt;
-	width: 10%;
+	font-family: 'IBM Plex Sans', sans-serif; 
+	font-size: 2rem;
+	width: 31pt;
 	text-align: center;
+	border-radius: 50%;
+	color: #552189;
 }
 
-.footer a:hover {
-	background-color: #d2232a;
+.menu a:hover {
+	background-color: #552189;
+	color: white;
+}

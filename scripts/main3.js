@@ -146,17 +146,18 @@ var leaves = [
 
 ]
 
-
+	
+	
 
 	var button = $('<div/>', {'class':'items'
 			})
-			.html('<br>'+ ' click me ' +'<br>'+ '<br>')
-			.data('leave', leaves[i] )
+			.html('<br>'+ ' grow plants ' +'<br>'+ '<br>')
+			.data('leave', leaves[1] )
 			.data('clicked',false)
-			.css({'border-color': '#c9cfdd'})
+			.css({'border-color': '#c9cfdd', 'color':'#c9cfdd'})
 			.click(function() {
-				if ($(.items).data('clicked')===false){
-					$('body').append('<span>'+ random-leave[i].pic) + '</span>'
+				if ($('.items').data('clicked')===false){
+					$('.images').append('<span>'+ leaves[Math.floor(Math.random()*(leaves.length))].pic) + '</span>'
 				}
 
 				else {
@@ -166,10 +167,10 @@ var leaves = [
 			})
 			
 
-	{
 
 	$('.content').append(button)
-	}
+
+
 
 
 

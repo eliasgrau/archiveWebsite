@@ -3,7 +3,17 @@
 body {
 	cursor: cell;
 	margin: 0;
+	display: flex;
+	justify-content: center;
 }
+.images {
+	position: absolute;
+
+  	z-index: -1;
+	height: 100vh;
+	width: 100%;
+}
+
 .content {
 	height: 100vh;
 	display: flex;
@@ -15,12 +25,27 @@ body {
 	margin:10px;
 	font-family: 'IBM Plex Sans', sans-serif; 
 	text-align: center;
-	border: 3px solid black;
+	border: 3px solid;
 	width: 25%;
-	color: #c9cfdd;
 	font-size: 25px;
+	position: fixed;
+	opacity: 40%;
 }
 
-.items img {
-	width: 100%;
+img {
+	width: 26%;
+	margin: 2rem;
+}
+
+
+
+.items:hover {
+	background-color: white;
+	opacity: 100%
+}
+
+
+.items:active {
+	background-color: #1f7a1f;
+	color: white;
 }
