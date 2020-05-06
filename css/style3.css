@@ -1,0 +1,26 @@
+
+
+body {
+	cursor: cell;
+	margin: 0;
+}
+.content {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.items {
+	margin:10px;
+	font-family: 'IBM Plex Sans', sans-serif; 
+	text-align: center;
+	border: 3px solid black;
+	width: 25%;
+	color: #c9cfdd;
+	font-size: 25px;
+}
+
+.items img {
+	width: 100%;
+}
